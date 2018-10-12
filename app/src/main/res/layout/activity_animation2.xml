@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="anim补间动画只改变显示位置(点击区域等属性未改变)" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:padding="10dp"
+            android:text="Hello qijian" />
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+
+            android:id="@+id/btn_ValueAnimator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ValueAnimator_start开始属性动画"
+            />
+        <TextView
+            android:id="@+id/tv_ValueAnimator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ffff00"
+            android:text="Hello qijian"/>
+
+
+
+        <Button
+            android:id="@+id/btn_ValueAnimator_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="cancel_anim取消动画"
+            />
+
+
+        <Button
+            android:id="@+id/btn_ValueAnimator_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="remove_anim取消动画"
+            />
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_ValueAnimator_clone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ValueAnimator_start_clone开始属性动画"
+            />
+
+        <TextView
+            android:id="@+id/tv_ValueAnimator_clone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ffff00"
+            android:text="Hello qijian"/>
+
+
+
+        <Button
+            android:id="@+id/btn_ValueAnimator_cancel_clone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="cancel_anim_clone取消动画"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补间动画
+1.xml实现(alpha、scale、translate、rotate)
+2.系统插值器interpolator
+3.代码实现(alpha、scale、translate、rotate)interpolator"
+         />
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画ValueAnimator
+4.ValueAnimator位移"
+        />
+
+    <TextView
+        android:id="@+id/tv_there"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.ValueAnimator自定义插值器"
+        />
+
+</LinearLayout>

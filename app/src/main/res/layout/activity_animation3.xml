@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_BounceInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="弹跳插值" />
+
+        <Button
+            android:id="@+id/btn_MyInterploator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="1-插值系数" />
+
+
+        <Button
+            android:id="@+id/btn_MyEvaluator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="计算器初始加200" />
+
+        <Button
+            android:id="@+id/btn_reverse_evaluator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="计算器倒序" />
+
+        <Button
+            android:id="@+id/btn_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="ValueAnim改变颜色" />
+
+
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:padding="10dp"
+            android:text="改变颜色" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_BounceInterpolator"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:padding="10dp"
+        android:text="弹跳插值" />
+
+    <TextView
+        android:id="@+id/tv_MyInterploator"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:padding="10dp"
+        android:text="1-插值系数" />
+
+    <TextView
+        android:id="@+id/tv_MyEvaluator"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:padding="10dp"
+        android:text="计算器初始加200" />
+
+    <TextView
+        android:id="@+id/tv_reverse_evaluator"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:padding="10dp"
+        android:text="计算器初始加200" />
+
+</LinearLayout>
+

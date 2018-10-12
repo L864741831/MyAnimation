@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alpha_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:text="alpha透明度"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_scale_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_alpha_anim"
+            android:text="scale缩放"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_rotate_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_scale_anim"
+            android:text="rotate旋转"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_translate_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_rotate_anim"
+            android:text="trans位移"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_set_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_anim"
+        android:layout_margin="5dp"
+        android:text="set" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_anim_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_set_anim"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alpha_anim_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:text="alpha透明度"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_scale_anim_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_alpha_anim"
+            android:text="scale缩放"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_rotate_anim_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_scale_anim"
+            android:text="rotate旋转"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_translate_anim_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/btn_rotate_anim"
+            android:text="trans位移"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_set_anim_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ll_anim_code"
+        android:layout_margin="5dp"
+        android:text="set" />
+
+    <!-- android:visibility="gone" -->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dip"
+        android:layout_height="200dip"
+        android:layout_centerInParent="true"
+        android:background="#ff00ff"
+        android:text="hello_world" />
+
+</RelativeLayout>
